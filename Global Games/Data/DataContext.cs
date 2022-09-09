@@ -9,7 +9,7 @@ namespace Global_Games.Data
         {
 
             public DbSet<Newsletter> Newsletters { get; set; }
-            public DbSet<Orcamento> Orcamentos { get; set; }
+            public DbSet<Budget> Budgets { get; set; }
 
             public DataContext(DbContextOptions<DataContext> options) : base(options)
             {
