@@ -7,5 +7,7 @@ namespace Global_Games.Data.Entities
     {
         public int Id { get; set; }
         public string Email { get; set; }
+
+        public User User { get; set; }
     }
 }

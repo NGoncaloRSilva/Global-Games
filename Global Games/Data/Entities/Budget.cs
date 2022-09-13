@@ -16,6 +16,8 @@ namespace Global_Games.Data.Entities
         [Display(Name = "Message")]
         [Required(ErrorMessage = "O campo {0} é obrigatório.")]
         public string Message { get; set; }
-        
+
+        public User User { get; set; }
+
     }
 }
